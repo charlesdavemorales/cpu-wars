@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: cpu-wars-classroom
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST_PASSWORD
+        sync: false

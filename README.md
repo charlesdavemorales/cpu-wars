@@ -1,0 +1,2 @@
+# cpu-wars
+educational purposes
